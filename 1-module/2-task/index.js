@@ -14,7 +14,7 @@ function isValid(name) {
      if (name == null) {
       return false;
      }
-     if (name.length < 4 || name.includes(` `) || name==``) {
+     if (name.length < 4 || name.includes(` `) || name == ``) {
       return false;
      }
       return true;
